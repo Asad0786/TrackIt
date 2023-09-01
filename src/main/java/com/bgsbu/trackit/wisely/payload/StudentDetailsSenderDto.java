@@ -1,0 +1,17 @@
+package com.bgsbu.trackit.wisely.payload;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class StudentDetailsSenderDto {
+
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+
+}
